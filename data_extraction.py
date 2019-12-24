@@ -15,7 +15,7 @@ import pandas as pd
 import xlwings as xw
 
 #loads NASTRAN OUT file data - example uses Plate Frame Assy Shrink_ShrinkWrap_1.ipt - Analysis 3 [Linear Static] OUT file
-strFolder='C:\Users\david\Documents\Python Scripts'
+strFolder=r'C:\Users\david\Documents\Python Scripts'
 strFile='ikjo1ocmm.OUT'
 strPath=r''+strFolder+'\\'+strFile
 f=open(strPath, mode='r')
